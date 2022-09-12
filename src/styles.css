@@ -118,8 +118,7 @@ li {
 }
 .fa-solid {
   margin: 10px 0;
-  width: 52px;
-  height: 52px;
+  font-size: 35px;
 }
 #weatherform {
   display: block;
