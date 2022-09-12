@@ -11,46 +11,116 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/eb25657eb6.js" crossorigin="anonymous"></script>
     <link href="src/styles.css" rel="stylesheet" />
     <title>Weather App</title>
   </head>
   <body>
-    <div class="containter">
-      <div class="weather-app-wrapper">
-        <div class="weather-app">
-          <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"> °C</span>
+    <div id="root">
+      <div class="app">
+        <div class="container">
+          <div class="weather">
+            <h1>Weather</h1>
+            <form>
+              <div class="row">
+                <div class="col-9">
+                  <input 
+                  type="search"
+                  placeholder="Enter a city..."
+                  class="form-control search-input">
+                </div>
+                <div class="col-3 p-0">
+                  <input type="submit" class="btn btn-primary w 100" value="search">
                 </div>
               </div>
-            </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
-              </ul>
+            </form>
+        <div class="weatherInfo">
+          <div class="row">
+            <h2>New York</h2>
+            <ul>
+              <li>
+                <span>
+                  Sunday 18:41
+                </span id="description">
+                
+              </li>
+              <li>
+                Humidity:
+                <strong id="humidity">91</strong>%
+              </li>
+              <li>
+                Wind: 
+                <strong id="wind">5</strong> mph
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div class="temperature-container d-flex justify-content-end">
+              <i class="fa-light fa-smog"></i>
+              <div>
+              <span class="temperature">20</span>
+              <span class="unit">C°</span>
+              </div>  
             </div>
           </div>
         </div>
-        <small>
-          <a
-            href="https://github.com/Claus3lido/Vanilla-Weather-App"
-            target="_blank"
-            >Open-source code</a
-          >
-          by Claudia Cumplido
-        </small>
+        </div>
+        <div class="weatherForcast row">
+          <div class="col">
+            <div class="weatherForcastPreview">
+              <div class="forcastTemperature">Sun</div>
+              <i class="fa-solid fa-cloud-rain"></i>
+              <div class="forcastTemperature">
+                <span class="forcastTemperatureaMax">24°</span>
+                <span class="forcastTemperatureMin">20°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="weatherForcastPreview">
+              <div class="forcastTime">Mon</div>
+              <i class="fa-solid fa-cloud-rain"></i>
+              <div class="forcastTemperature">
+                <span class="forcastTemperatureMax">28°</span>
+                <span class="forcastTemperatureMin">21°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="weatherForcastPreview">
+              <div class="forcastTime">Tues</div>
+              <i class="fa-solid fa-cloud-rain"></i>
+              <div class="forcastTemperature">
+                <span class="forcastTemperatureMax">29°</span>
+                <span class="forcastTemperatureMin">22°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="weatherForcastPreview">
+              <div class="forcastTime">Wed</div>
+              <i class="fa-solid fa-sun"></i>
+              <div class="forcastTemperature">
+                <span class="forcastTemperatureMax">26°</span>
+                <span class="forcastTemperatureMin">18°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="weatherForcastPreview">
+              <div class="forcastTime">Thurs</div>
+               <i class="fa-regular fa-cloud-sun"></i>
+              <div class="forcastTemperature">
+                <span class="forcastTemperatureMax">25°</span>
+                <span class="forcastTemperatureMin">19°</span>
+              </div>
+            </div>
+          </div>
+          <footer>
+            This project was coded by Claudia Cumplido and is <a href="https://github.com/Claus3lido/Vanilla-Weather-App" target="_blank">open-sourced on GitHub</a> and <a href="https://bejewelled-fox-f2fe27.netlify.app/" target="_blank">hosted by netlify</a>
+          </footer>
+        </div>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
