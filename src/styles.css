@@ -10,3 +10,8 @@ body {
   background-color: #fff;
   box-sizing: border-box;
 }
+
+:root {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
