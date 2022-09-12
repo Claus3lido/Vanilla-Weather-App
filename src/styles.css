@@ -63,6 +63,16 @@ div {
   font-weight: 400;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.weatherInfo {
+  margin-top: 20px;
+}
+.weather .h2 {
+  margin: 20px 0 10px;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 38px;
+  color: #272142;
+}
 #weatherform {
   display: block;
   margin-top: 40px;
