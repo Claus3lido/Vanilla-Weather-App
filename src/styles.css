@@ -13,7 +13,12 @@ body {
 div {
   display: block;
 }
-h1,
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 10px 0 10px;
+  color: #272142;
+}
 h2 {
   margin: 20px 0 10px;
   line-height: 48px;
