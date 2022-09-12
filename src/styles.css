@@ -75,8 +75,7 @@ footer {
   padding: 15px 50px;
   border: none;
   height: 50px;
-  color: #fff;
-  background-color: #878787;
+  background: #878787;
 }
 .row {
   display: flex;
