@@ -108,6 +108,14 @@ li {
   line-height: 1;
   color: #212121;
 }
+.unit {
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  color: #212121;
+}
 #weatherform {
   display: block;
   margin-top: 40px;
