@@ -20,6 +20,30 @@ h2 {
   font-size: 38px;
   color: #272142;
 }
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: list-item;
+  text-align: center;
+}
+.weather li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 20px;
+  list-style: none;
+  color: rgba(39, 33, 66, 0.4);
+}
+
 :root {
   font-family: sans-serif;
   box-sizing: border-box;
