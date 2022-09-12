@@ -136,7 +136,7 @@ li {
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 50px;
 }
-.weatherForcast .forcast-temperature {
+.weatherForcast .forcastTemperature {
   font-size: 18px;
   font-style: normal;
   line-height: 1.5;
