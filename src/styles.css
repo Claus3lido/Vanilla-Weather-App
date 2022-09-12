@@ -97,6 +97,17 @@ li {
 .weatherInfo {
   margin-top: 20px;
 }
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.temperature {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  color: #212121;
+}
 #weatherform {
   display: block;
   margin-top: 40px;
