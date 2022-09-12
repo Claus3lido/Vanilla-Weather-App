@@ -116,6 +116,10 @@ li {
   top: -34px;
   color: #212121;
 }
+.fa-lightfa-smog {
+  width: 52px;
+  height: 52px;
+}
 #weatherform {
   display: block;
   margin-top: 40px;
