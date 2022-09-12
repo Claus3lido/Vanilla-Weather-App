@@ -124,6 +124,12 @@ li {
   margin: 10px 0;
   font-size: 50px;
 }
+.weatherInfo .temperature-container {
+  margin-top: 30px;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
 #weatherform {
   display: block;
   margin-top: 40px;
