@@ -13,6 +13,14 @@ body {
 div {
   display: block;
 }
+h1,
+h2 {
+  margin: 20px 0 10px;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 38px;
+  color: #272142;
+}
 :root {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -65,13 +73,6 @@ div {
 }
 .weatherInfo {
   margin-top: 20px;
-}
-h2 {
-  margin: 20px 0 10px;
-  line-height: 48px;
-  font-weight: 700;
-  font-size: 38px;
-  color: #272142;
 }
 #weatherform {
   display: block;
