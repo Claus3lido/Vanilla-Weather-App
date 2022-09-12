@@ -64,7 +64,7 @@ li {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px;
-  padding: 80px 40px;
+  padding: 40px;
   color: #878787;
 }
 .row {
@@ -130,6 +130,20 @@ li {
 .justify-content-end {
   justify-content: flex-end;
 }
+.weatherForcast {
+  text-align: center;
+  margin: 40px 0;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 50px;
+}
+.weatherForcast .forcast-temperature {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.5;
+  color: #f65282;
+  font-weight: 700;
+}
+
 #weatherform {
   display: block;
   margin-top: 40px;
