@@ -61,3 +61,20 @@ function handleSubmit(event) {
 
 let button = document.querySelector("#search-button");
 button.addEventListener("click", handleSubmit);
+
+function convertFahrenheit(event) {
+  event.preventDefault();
+  let tempNow = document.querySelector("#temperature");
+  tempNow.innerHTML = "80°";
+}
+
+let fahrenheitNow = document.querySelector("#fahrenheit-Temp");
+fahrenheitNow.addEventListener("click", convertFahrenheit);
+
+function convertCelsius(event) {
+  event.preventDefault();
+  let tempNow = document.querySelector("#temperature");
+  tempNow.innerHTML = "26°";
+}
+let celsiusNow = document.querySelector("#celsius-Temp");
+celsiusNow.addEventListener("click", convertCelsius);
