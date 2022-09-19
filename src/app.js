@@ -22,9 +22,7 @@ function formatDate(date) {
     "Saturday",
   ];
   let currentDay = days[day];
-  let currentDate = date.getDate();
-
-  return ` ${currentDate}<br /> ${currentDay} <br /> ${hours}:${minutes}`;
+  return ` ${currentDay} ${hours}:${minutes}`;
 }
 
 let apiKey = "2d96d64425dca1d6eda00d942a281c0d";
