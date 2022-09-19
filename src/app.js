@@ -84,3 +84,4 @@ function convertCelsius(event) {
 }
 let celsiusNow = document.querySelector("#celsius-Temp");
 celsiusNow.addEventListener("click", convertCelsius);
+search("New York");
