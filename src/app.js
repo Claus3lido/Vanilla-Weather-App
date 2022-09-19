@@ -50,7 +50,7 @@ function searchCity(event) {
   cityName.innerHTML = cityInput.value;
 }
 
-let searchForm = document.querySelector("form");
+let searchForm = document.querySelector("weather-form");
 searchForm.addEventListener("submit", searchCity);
 function handleSubmit(event) {
   event.preventDefault();
