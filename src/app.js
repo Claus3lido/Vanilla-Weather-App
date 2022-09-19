@@ -24,5 +24,22 @@ function formatDate(date) {
   let currentDay = days[day];
   return ` ${currentDay} ${hours}:${minutes}`;
 }
-
-let apiKey = "2d96d64425dca1d6eda00d942a281c0d";
+function displayWeatherCondition(response) {
+  document.querySelector("#city").innerHTML = response.data.name;
+  document.querySelector("#temperature").innerHTML = Math.round(
+    response.data.main.temp
+  );
+  document.querySelector("#humidity").innerHTML = Math.round(
+    response.data.main.humidity
+  );
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].main;
+}
+function search(city) {
+  let apiKey = "2d96d64425dca1d6eda00d942a281c0d";
+  let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayWeatherCondition);
+}
