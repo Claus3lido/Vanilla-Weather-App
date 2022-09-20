@@ -132,6 +132,9 @@ footer {
   margin: 10px 0;
   font-size: 50px;
 }
+.weatherInfo .temperature-container {
+  margin: 30px;
+}
 .justify-content-end {
   justify-content: flex-end !important;
 }
