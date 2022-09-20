@@ -141,13 +141,8 @@ footer {
 .d-flex {
   display: flex !important;
 }
-.temperature-container .active {
-  color: #212121;
-  cursor: default;
-  text-decoration: none;
-}
-.temperature-container .active:hover {
-  text-decoration: none;
+.unit {
+  font-size: 20px;
 }
 .weather-forcast {
   border-bottom: 1px solid #f9f7fe;
@@ -175,9 +170,6 @@ footer {
   font-size: 80px;
   line-height: 1;
   color: #212121;
-}
-#fahrenheit-Temp {
-  text-decoration: none;
 }
 #weather-form {
   display: block;
