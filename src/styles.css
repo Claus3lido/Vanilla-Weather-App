@@ -120,13 +120,6 @@ footer {
   padding-right: 15px;
   padding-left: 15px;
 }
-#temperature {
-  margin-left: 10px;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 1;
-  color: #212121;
-}
 .unit {
   font-size: 28px;
   font-weight: 400;
@@ -155,6 +148,13 @@ footer {
 }
 .temperature-container .active:hover {
   text-decoration: none;
+}
+#temperature {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  color: #212121;
 }
 #fahrenheit-Temp {
   text-decoration: none;

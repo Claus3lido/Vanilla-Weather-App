@@ -1,6 +1,3 @@
-let currentTime = new Date();
-let date = document.querySelector("#date");
-date.innerHTML = formatDate(currentTime);
 function formatDate(date) {
   let hours = date.getHours();
   if (hours < 10) {
@@ -30,10 +27,6 @@ function searchCity(event) {
   let cityInput = document.querySelector("#city-input");
   cityName.innerHTML = cityInput.value;
 }
-
-let searchForm = document.querySelector("form");
-searchForm.addEventListener("submit", searchCity);
-
 function displayWeatherCondition(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
@@ -67,9 +60,6 @@ function handleSubmit(event) {
   search(city);
 }
 
-let button = document.querySelector("#search-button");
-button.addEventListener("click", handleSubmit);
-
 function convertFahrenheit(event) {
   event.preventDefault();
   celsiusLink.classList.remove("active");
@@ -86,6 +76,16 @@ function convertCelsius(event) {
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
+let currentTime = new Date();
+let date = document.querySelector("#date");
+date.innerHTML = formatDate(currentTime);
+
+let searchForm = document.querySelector("form");
+searchForm.addEventListener("submit", searchCity);
+
+let button = document.querySelector("#search-button");
+button.addEventListener("click", handleSubmit);
+
 let celsiusTemperature = null;
 
 let fahrenheitLink = document.querySelector("#fahrenheit-Temp");
