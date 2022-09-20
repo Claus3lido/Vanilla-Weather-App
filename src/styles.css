@@ -149,6 +149,29 @@ footer {
 .temperature-container .active:hover {
   text-decoration: none;
 }
+.weather-forcast {
+  border-bottom: 1px solid #f9f7fe;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.col {
+  flex: 1 0;
+}
+.weather-forcast .forcast-time {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.weather-forcast .forcast-temperature {
+  color: #f65282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 #temperature {
   margin-left: 10px;
   font-weight: 700;
