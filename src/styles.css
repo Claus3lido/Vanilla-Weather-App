@@ -148,19 +148,7 @@ footer {
 .d-flex {
   display: flex !important;
 }
-.weatherForcast {
-  text-align: center;
-  margin: 40px 0;
-  border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 50px;
-}
-.weatherForcast .forcastTemperature {
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.5;
-  color: #f65282;
-  font-weight: 700;
-}
+
 #weather-form {
   display: block;
   margin-top: 40px;
