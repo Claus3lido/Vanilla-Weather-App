@@ -156,6 +156,9 @@ footer {
 .temperature-container .active:hover {
   text-decoration: none;
 }
+#fahrenheit-Temp {
+  text-decoration: none;
+}
 #weather-form {
   display: block;
   margin-top: 40px;
