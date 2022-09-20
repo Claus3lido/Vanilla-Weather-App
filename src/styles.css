@@ -163,7 +163,7 @@ footer {
   font-size: 16px;
   opacity: 0.5;
 }
-.weather-forcast-temperature {
+.weather-forcast .weather-forcast-temperature {
   color: #f65288;
   font-size: 18px;
   font-style: normal;
