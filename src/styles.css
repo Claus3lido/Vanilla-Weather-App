@@ -159,7 +159,7 @@ footer {
   flex: 1 0;
 }
 .weather-forcast .forcast-time {
-  color: rgba(39, 33, 66, 0.4);
+  color: #212121;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -170,6 +170,9 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
+}
+.forecast-temperature-min {
+  opacity: 0.6;
 }
 #temperature {
   margin-left: 10px;
