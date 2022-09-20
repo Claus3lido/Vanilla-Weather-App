@@ -155,9 +155,6 @@ footer {
   padding-bottom: 30px;
   text-align: center;
 }
-.col {
-  flex: 1 0;
-}
 .weather-forcast .forcast-time {
   color: #212121;
   font-size: 16px;
