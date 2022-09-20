@@ -151,6 +151,7 @@ footer {
 .temperature-container .active {
   color: #212121;
   cursor: default;
+  text-decoration: none;
 }
 .temperature-container .active:hover {
   text-decoration: none;
