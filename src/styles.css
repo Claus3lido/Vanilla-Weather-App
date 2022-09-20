@@ -163,6 +163,7 @@ footer {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+  opacity: 0.5;
 }
 .weather-forcast .forcast-temperature {
   color: #f65282;
@@ -172,7 +173,7 @@ footer {
   line-height: 1.5;
 }
 .forecast-temperature-min {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 #temperature {
   margin-left: 10px;
