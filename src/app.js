@@ -29,7 +29,7 @@ function searchCity(event) {
 }
 function getForecast(coordinates) {
   console.log(coordinates);
-  let apiKey = "f3009e4852fa0a079dab291dabf020c4";
+  let apiKey = "c95d60a1e3adbeb286133f1ebebc2579";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid={API key}&units=metric`;
   axios.get(apiUrl).then(displayForcast);
 }
