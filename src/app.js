@@ -79,7 +79,7 @@ function convertCelsius(event) {
 
 function displayForcast() {
   let forecastElement = document.querySelector("#forecast");
-  let days = ["Thurs", "Fri", "Sat", "Sun", "Mon"];
+  let days = ["Thurs", "Fri", "Sat", "Sun", "Mon", "Tues"];
   let forecastHTML = `<div class="row">`;
   days.forEach(function (day) {
     forecastHTML =
