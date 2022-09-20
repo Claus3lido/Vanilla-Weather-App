@@ -155,17 +155,16 @@ footer {
   padding-bottom: 30px;
   text-align: center;
 }
-.weather-forcast-date {
+.weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
 }
-.weather-forcast-temperature-min {
+.weather-forecast-temperature-min {
   font-size: 16px;
   opacity: 0.5;
 }
 .weather-forcast-temperatures {
   color: #f65288;
-  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
