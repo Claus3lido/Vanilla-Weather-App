@@ -148,7 +148,13 @@ footer {
 .d-flex {
   display: flex !important;
 }
-
+.temperature-container .active {
+  color: #212121;
+  cursor: default;
+}
+.temperature-container .active:hover {
+  text-decoration: none;
+}
 #weather-form {
   display: block;
   margin-top: 40px;
