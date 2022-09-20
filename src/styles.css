@@ -42,7 +42,7 @@ li {
 }
 footer {
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: 10px;
   line-height: 18px;
   text-align: center;
   color: #272142;
@@ -151,8 +151,8 @@ footer {
 }
 .weather-forcast {
   border-bottom: 1px solid #f9f7fe;
-  margin: 40px 0;
-  padding-bottom: 50px;
+  margin: 30px 0;
+  padding-bottom: 30px;
   text-align: center;
 }
 .col {
